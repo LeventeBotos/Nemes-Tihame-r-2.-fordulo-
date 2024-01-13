@@ -1,0 +1,16 @@
+H:\verseny\1\bin\Debug\net5.0\1.exe
+H:\verseny\1\bin\Debug\net5.0\1.deps.json
+H:\verseny\1\bin\Debug\net5.0\1.runtimeconfig.json
+H:\verseny\1\bin\Debug\net5.0\1.runtimeconfig.dev.json
+H:\verseny\1\bin\Debug\net5.0\1.dll
+H:\verseny\1\bin\Debug\net5.0\ref\1.dll
+H:\verseny\1\bin\Debug\net5.0\1.pdb
+H:\verseny\1\obj\Debug\net5.0\1.csproj.AssemblyReference.cache
+H:\verseny\1\obj\Debug\net5.0\1.GeneratedMSBuildEditorConfig.editorconfig
+H:\verseny\1\obj\Debug\net5.0\1.AssemblyInfoInputs.cache
+H:\verseny\1\obj\Debug\net5.0\1.AssemblyInfo.cs
+H:\verseny\1\obj\Debug\net5.0\1.csproj.CoreCompileInputs.cache
+H:\verseny\1\obj\Debug\net5.0\1.dll
+H:\verseny\1\obj\Debug\net5.0\ref\1.dll
+H:\verseny\1\obj\Debug\net5.0\1.pdb
+H:\verseny\1\obj\Debug\net5.0\1.genruntimeconfig.cache
