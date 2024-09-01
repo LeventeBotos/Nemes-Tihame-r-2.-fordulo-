@@ -8,12 +8,12 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
-           
+
             string input1 = Console.ReadLine();
             string[] split1 = input1.Split(' ');
             int retek = int.Parse(split1[0]);
             int minszam = int.Parse(split1[1]);
-           
+
             string input2 = Console.ReadLine();
             string[] split2 = input2.Split(' ');
 
@@ -23,7 +23,7 @@ namespace ConsoleApp1
             {
                 szabade.Add(int.Parse(szam));
             }
-           
+
 
 
 
@@ -42,7 +42,7 @@ namespace ConsoleApp1
                     }
                     if (tempres > minszam || tempres == minszam)
                     {
-                        tempres = tempres - 2;
+                        tempres -= 2;
                     }
                     else
                     {
@@ -52,9 +52,9 @@ namespace ConsoleApp1
                 }
                 res += tempres;
             }
-           
+
             Console.WriteLine(res);
-           
+
         }
 
 

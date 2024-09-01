@@ -25,7 +25,7 @@ namespace ConsoleApp1
             {
                 string newInput = Console.ReadLine();
                 string[] newSplit = newInput.Split(' ');
-                List<int> temp = new List<int>();
+                List<int> temp = new();
                 foreach (string item in newSplit)
                 {
                     temp.Add(int.Parse(item));
@@ -38,26 +38,29 @@ namespace ConsoleApp1
             int Sum(int inp)
             {
                 int res = 0;
-                
-                    foreach (int[] item in oszlopokValues)
+
+                foreach (int[] item in oszlopokValues)
+                {
+                    if (item[inp] > item[0])
                     {
-                        if (item[inp] > item[0]){
                         res += item[0];
-                        }
-                        else {
-                             res += item[inp];
-                        }
                     }
-               
-              
-               
+                    else
+                    {
+                        res += item[inp];
+                    }
+                }
+
+
+
                 return res;
             }
 
 
-        for (int i = 0; i > oszlopok; 1++) {
-            
-        }
+            for (int i = 0; i > oszlopok; i++)
+            {
+
+            }
             if (egeszElsoSor < Sum(0))
             {
                 Console.WriteLine(true);
